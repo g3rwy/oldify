@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Oldify",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "oldify_gerwy@tuta.io"
+    }
+  },
+  "description": "Brings old look to modern websites.",
+  "icons": {
+    "32": "icons/icon.png"
+  },
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["oldify.js"]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["newgrounds/*"],
+      "matches": ["<all_urls>"],
+      "extension_ids": ["*"]
+    }
+  ]
+}

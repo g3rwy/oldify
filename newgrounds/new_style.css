@@ -1,0 +1,98 @@
+#notification-bar {
+    /* background-position: 2px 3.6%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.notification-bar {
+    background-color: #100d0d !important;
+}
+
+.topsearch-submit[title="Search"] {
+    position: relative;
+    left: 6%;
+}
+
+div.notification-bar .search input {
+    padding: 7px 25px !important;
+    background: -moz-linear-gradient(top, #d15010 0%, #f29f51 100%) !important;
+    background: -webkit-linear-gradient(
+        top,
+        #d15010 0%,
+        #f29f51 100%
+    ) !important;
+    background: linear-gradient(to bottom, #d15010 0%, #f29f51 100%) !important;
+}
+
+div.notification-bar .logo a {
+    /* width: 180px; */
+    height: 45px !important;
+    /* text-indent: -9999px;
+	display: block;
+	overflow: hidden; */
+    /* background: url("//img.ngfiles.com/newgroundstitle.webp?cached=1707337416") left top no-repeat; */
+    background-size: cover !important;
+}
+
+div.pod-head h2.pnews::before {
+    background-position: 0px -609px !important;
+}
+
+.featuretitle::before {
+    content: "";
+   
+    /* Size of star within sprite */
+    width: 260px;
+    height: 36px;
+ 
+    /* Sprite */
+    background: url("") 0 -2px no-repeat;
+    
+    /* Position/Spacing */
+   float: left; 
+   margin: 0 -20px; 
+}
+
+.pod-head span a:not([class^="ngicon"]), .pod-head span button:not([class^="ngicon"]), div.podtop span a:not([class^="ngicon"]), div.podtop span button:not([class^="ngicon"]) {
+	color: #fda238;
+	/*background-image: url("newgrounds/link_stripes.png");*/
+	opacity: 0.8;
+    border-radius: 0px;
+}
+
+svg.svgmask > image {
+    clip-path: none !important;
+}
+
+div.footer-main div.footer-bottom {
+	padding-top: 46px;
+	background-color: transparent;
+}
+
+div.footer-main div.footer-decoration {
+	background-image: url("") !important;
+	height: 52px;
+}
+div.body-footer-wrapper {
+	background-repeat: no-repeat !important;
+	background-position: center 43px !important;
+	background-size: 74% !important;
+}
+
+div.footer-main div.footer-navigation-cell li {
+	padding-bottom: 1.5px !important;
+	background-clip: content-box !important;
+	height: 23px !important;
+	line-height: 171% !important;
+}
+
+div.footer-main div.footer-navigation-cell li::before {
+    content: " | ";
+    color: #d85b1e;
+    padding-left: 4px;
+}
+
+.footer-navigation {
+    margin-top: -33px !important;
+}
